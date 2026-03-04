@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  jarvis:
+    build: .
+    ports:
+      - "5000:5000"
+    container_name: jarvis_container
+    restart: always
